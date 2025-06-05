@@ -7,6 +7,7 @@ extern "C" {
 void StartBLEScan(void);
 const char* StartBLEScanAndReturnJSON(void);
 void ConnectToBLEDevice(const char* uuid);
+void DisconnectFromBLEDevice(void);
 
 #ifdef __cplusplus
 }
